@@ -1,0 +1,29 @@
+.header {
+  padding: 30px 0;
+  background: var(--dark-color);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 10rem;
+  height: 3rem;
+}
+
+.menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.menu li a {
+  color: #fff;
+  transition: var(--transition);
+}
+
+.menu li:hover a {
+  color: var(--orange);
+}
